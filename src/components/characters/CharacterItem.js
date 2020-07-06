@@ -6,7 +6,10 @@ const CharacterItem = ({item}) => {
         <div className='card'>
         <div className='card-inner'>
           <div className='card-front'>
-            <img src={item.img} alt='' />
+            <img src={item.img} 
+            style={{
+                 borderRadius: 10
+          }}alt='' />
           </div>
           <div className='card-back'>
             <h2>{item.name}</h2>
